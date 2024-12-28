@@ -5,7 +5,9 @@
 - Duration :  DECEMBER TO JANUARY 2025
 - Mentor : NEELA SANTHOSH KUMAR
 
-![QUIZ GAME](https://github.com/user-attachments/assets/49aaee25-3773-4634-9959-375a6c45441d)
+![QUIZ GAME - 1](https://github.com/user-attachments/assets/2ce4ec76-1fbb-4d26-989b-f3dd5014a5a7)
+![QUIZ GAME - 2](https://github.com/user-attachments/assets/2afffbf3-45dc-4b6d-b7fc-8e3dbf593445)
+
 Overview of the Code :
 The provided code is a simple C-based quiz game that presents a series of questions to the user, collects their responses, and evaluates their answers. At the end of the quiz, the user receives feedback on their performance.
 
@@ -55,3 +57,6 @@ Key Activities in the Code:
   6. Function for Question Display:
     - The displayQuestion function prints the question and its corresponding options.
     - It ensures the questions are presented in a readable format.
+
+![QUIZ GAME - 3](https://github.com/user-attachments/assets/966337fc-cb0a-45b8-99db-53c2f491778d)
+![QUIZ GAME - 4](https://github.com/user-attachments/assets/1fedc1e9-15f8-4b49-8232-179201545607)
