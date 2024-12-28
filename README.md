@@ -5,6 +5,7 @@
 - Duration :  DECEMBER TO JANUARY 2025
 - Mentor : NEELA SANTHOSH KUMAR
 
+![QUIZ GAME](https://github.com/user-attachments/assets/49aaee25-3773-4634-9959-375a6c45441d)
 Overview of the Code :
 The provided code is a simple C-based quiz game that presents a series of questions to the user, collects their responses, and evaluates their answers. At the end of the quiz, the user receives feedback on their performance.
 
