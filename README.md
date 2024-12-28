@@ -1,9 +1,9 @@
-Name : SUJAL MALLIKARJUN SHRIGAN
-Company : CODTECH IT SOLUTIONS
-ID : CT08EFW
-Domain :  C PROGRAMMING
-Duration :  DECEMBER TO JANUARY 2025
-Mentor : NEELA SANTHOSH KUMAR
+- Name : SUJAL MALLIKARJUN SHRIGAN
+- Company : CODTECH IT SOLUTIONS
+- ID : CT08EFW
+- Domain :  C PROGRAMMING
+- Duration :  DECEMBER TO JANUARY 2025
+- Mentor : NEELA SANTHOSH KUMAR
 
 Overview of the Code :
 The provided code is a simple C-based quiz game that presents a series of questions to the user, collects their responses, and evaluates their answers. At the end of the quiz, the user receives feedback on their performance.
