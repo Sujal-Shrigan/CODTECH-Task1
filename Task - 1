@@ -1,0 +1,77 @@
+//The following is the code is for Task - 1 : Quiz-Game.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+void displayQuestion(int questionNumber, char question[], char options[][50], char correctOption);
+int main() {
+    int score = 0;
+    int totalQuestions = 5;
+
+    // Firstly, we'll initialise Questions.
+    char questions[5][100] = {
+        "What is the Currency of Japan?",
+        "Who is the President of North Korea?",
+        "Which one of the following moves diagonally in Chess?",
+        "Who is Founder of CODTECH IT SOLUTIONS Pvt. Ltd.?",
+        "Which is the most Populated Country?"
+
+    };
+
+    // Then, we'll initialise Options.
+    char options[5][4][50] = {
+        {"A. Iraqi Dinar", "B. USD", "C. Yen", "D. INR "},
+        {"A. Yoon Suk Yeol", "B. Kim Jong Un", "C. Xi Jinping", "D. Shigeru Ishiba"},
+        {"A. Knight", "B. Rook", "C. Bishop", "D. Pawn"},
+        {"A. Harish Neelam", "B. Kailas Bodkhe", "C. Mallikarjun Shrigan", "D. Prashant Abhang"},
+        {"A. China", "B. U.S.A", "C. Russia", "D. India"}
+    };
+
+    // Lastly, we'll initialise Correct Options.
+    char correctOptions[5] = {'C', 'B', 'C', 'A', 'D'};
+
+    printf("Welcome to the Quiz Game!\n");
+    printf("Answer the questions by typing the correct option (A, B, C, or D).\n\n");
+
+    // Putting Loop through each question.
+    for (int i = 0; i < totalQuestions; i++) {
+        displayQuestion(i + 1, questions[i], options[i], correctOptions[i]);
+        char userAnswer;
+
+        printf("Your answer: ");
+        scanf(" %c", &userAnswer);
+        userAnswer = toupper(userAnswer);
+
+        if (userAnswer == correctOptions[i]) {
+            printf("Correct Answer!\n\n");
+            score++;
+        } else {
+            printf("Wrong! The correct answer was %c.\n\n", correctOptions[i]);
+        }
+    }
+
+    // Displaying our Final Score.
+    printf("Quiz Over!\n");
+    printf("Your Final Score is %d out of %d\n", score, totalQuestions);
+
+
+    // Feedback based on Score Acquired.
+    if (score == totalQuestions) {
+        printf("Excellent! You got all the answers right!\n");
+    } else if (score > totalQuestions / 2) {
+        printf("Good job! You got more than half correct.\n");
+    }else {
+        printf("Not Bad, IMPROVEMENT NEEDED!\n");
+    } 
+
+    return 0;
+}
+
+void displayQuestion(int questionNumber, char question[], char options[][50], char correctOption) {
+    printf("Question %d: %s\n", questionNumber, question);
+    for (int i = 0; i < 4; i++) {
+        printf("%s\n", options[i]);
+    }
+}    
+    
